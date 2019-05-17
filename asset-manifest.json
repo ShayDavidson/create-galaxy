@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/create-galaxy/static/css/main.0af64d1e.chunk.css",
-    "main.js": "/create-galaxy/static/js/main.545934cc.chunk.js",
-    "main.js.map": "/create-galaxy/static/js/main.545934cc.chunk.js.map",
+    "main.js": "/create-galaxy/static/js/main.5bf553f0.chunk.js",
+    "main.js.map": "/create-galaxy/static/js/main.5bf553f0.chunk.js.map",
     "runtime~main.js": "/create-galaxy/static/js/runtime~main.9bab7769.js",
     "runtime~main.js.map": "/create-galaxy/static/js/runtime~main.9bab7769.js.map",
     "static/js/2.9c37452f.chunk.js": "/create-galaxy/static/js/2.9c37452f.chunk.js",
     "static/js/2.9c37452f.chunk.js.map": "/create-galaxy/static/js/2.9c37452f.chunk.js.map",
     "index.html": "/create-galaxy/index.html",
-    "precache-manifest.be45b8cc8a74d0f8a86c0b58ba021101.js": "/create-galaxy/precache-manifest.be45b8cc8a74d0f8a86c0b58ba021101.js",
+    "precache-manifest.b585307dcf1baf829ee88e97182b2946.js": "/create-galaxy/precache-manifest.b585307dcf1baf829ee88e97182b2946.js",
     "service-worker.js": "/create-galaxy/service-worker.js",
     "static/css/main.0af64d1e.chunk.css.map": "/create-galaxy/static/css/main.0af64d1e.chunk.css.map"
   }
