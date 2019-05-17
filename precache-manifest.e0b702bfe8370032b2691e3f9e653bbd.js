@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "920fcdc0687ee426f5bbb6c789ddca9a",
+    "revision": "94701670037936143c3db657dcc60c03",
     "url": "/create-galaxy/index.html"
   },
   {
-    "revision": "88a670c1ec1504e8c1c0",
+    "revision": "fa9f05353c51f1046dfc",
     "url": "/create-galaxy/static/css/main.0af64d1e.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/create-galaxy/static/js/2.9c37452f.chunk.js"
   },
   {
-    "revision": "88a670c1ec1504e8c1c0",
-    "url": "/create-galaxy/static/js/main.5bf553f0.chunk.js"
+    "revision": "fa9f05353c51f1046dfc",
+    "url": "/create-galaxy/static/js/main.8c0d22e3.chunk.js"
   },
   {
     "revision": "0d7df327b2564bc60a16",
