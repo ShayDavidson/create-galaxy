@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/create-galaxy/static/css/main.0af64d1e.chunk.css",
-    "main.js": "/create-galaxy/static/js/main.5bf553f0.chunk.js",
-    "main.js.map": "/create-galaxy/static/js/main.5bf553f0.chunk.js.map",
-    "runtime~main.js": "/create-galaxy/static/js/runtime~main.9bab7769.js",
-    "runtime~main.js.map": "/create-galaxy/static/js/runtime~main.9bab7769.js.map",
-    "static/js/2.9c37452f.chunk.js": "/create-galaxy/static/js/2.9c37452f.chunk.js",
-    "static/js/2.9c37452f.chunk.js.map": "/create-galaxy/static/js/2.9c37452f.chunk.js.map",
-    "index.html": "/create-galaxy/index.html",
-    "precache-manifest.b585307dcf1baf829ee88e97182b2946.js": "/create-galaxy/precache-manifest.b585307dcf1baf829ee88e97182b2946.js",
-    "service-worker.js": "/create-galaxy/service-worker.js",
-    "static/css/main.0af64d1e.chunk.css.map": "/create-galaxy/static/css/main.0af64d1e.chunk.css.map"
+    "main.css": "/static/css/main.0af64d1e.chunk.css",
+    "main.js": "/static/js/main.41c42f5c.chunk.js",
+    "main.js.map": "/static/js/main.41c42f5c.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/js/2.9c37452f.chunk.js": "/static/js/2.9c37452f.chunk.js",
+    "static/js/2.9c37452f.chunk.js.map": "/static/js/2.9c37452f.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.47ff800278bec3861fd5e9b34fab96f0.js": "/precache-manifest.47ff800278bec3861fd5e9b34fab96f0.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.0af64d1e.chunk.css.map": "/static/css/main.0af64d1e.chunk.css.map"
   }
 }
