@@ -103,16 +103,19 @@ export default function Inputs({
 
       {title('Effects')}
       {!advanced && (
-        <select className="standard-input" defaultValue="" onChange={e => onChange(EFFECT_PRESETS[e.target.value])}>
-          <option value="" disabled>
-            Effects Preset
-          </option>
-          {Object.keys(EFFECT_PRESETS).map(option => (
-            <option value={option} key={option}>
-              {option}
+        <>
+          {!supportsEffects() && <div className="error">Effects are partial in iOS/Safari 😞</div>}
+          <select className="standard-input" defaultValue="" onChange={e => onChange(EFFECT_PRESETS[e.target.value])}>
+            <option value="" disabled>
+              Effects Preset
             </option>
-          ))}
-        </select>
+            {Object.keys(EFFECT_PRESETS).map(option => (
+              <option value={option} key={option}>
+                {option}
+              </option>
+            ))}
+          </select>
+        </>
       )}
       {advanced && (
         <>
