@@ -23,6 +23,10 @@ body {
   height: 100%;
 }
 
+#preload {
+  position: absolute;
+}
+
 a:hover,
 a:visited,
 a:link,

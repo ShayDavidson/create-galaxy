@@ -35,9 +35,11 @@ export default function Inputs({
     <div ref={ref} className="inputs">
       <div className="row">
         <div className="info">
-          <strong>#creategalaxy</strong> by{' '}
+          <strong>A procedural generation galaxy creator.</strong>
+          <br />
+          Created by&nbsp;
           <a href="https://twitter.com/ShayHDavidson" target="_blank" rel="noopener noreferrer">
-            @ShayDavidson
+            @ShayHDavidson
           </a>
         </div>
       </div>
