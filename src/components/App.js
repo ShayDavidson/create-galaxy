@@ -58,7 +58,7 @@ export default function App() {
 
   const onShare = () => {
     track('click', 'shareTwitter');
-    shareOnTwitter(presetToUrl(preset), 'I created a galaxy! ⭐', ['icreatedagalaxy', 'reversim2019']);
+    shareOnTwitter(presetToUrl(preset), 'I created a galaxy! ⭐', ['icreatedagalaxy', 'reversim', 'rs19']);
   };
 
   const onChangeAdvanced = value => {
