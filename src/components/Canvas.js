@@ -17,6 +17,12 @@ export const AVAILABLE_BLEND_MODES = [
   'color-burn',
   'hard-light',
   'soft-light',
+  'difference',
+  'exclusion',
+  'hue',
+  'saturation',
+  'color',
+  'luminosity',
 ];
 
 export default function Canvas({ size, preset, canvasRef }) {

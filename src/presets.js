@@ -110,4 +110,41 @@ export const EFFECT_PRESETS = {
       { type: 'glow', blend: 'lighter', blur: '1' },
     ],
   },
+  negativeZone: {
+    spaceColor: '#ffffff',
+    starColor: ['#000000', '#000000', '#000000'],
+    luminance: '0.7',
+    layers: [
+      { blur: '10', blend: 'source-over', type: 'glow' },
+      { blur: '0', blend: 'multiply', type: 'glow' },
+      { blur: '3', blend: 'color-burn', type: 'glow' },
+      { blur: '100', blend: 'difference', type: 'core', size: '1500', color: '#000000' },
+    ],
+  },
+  jewel: {
+    spaceColor: '#1c2427',
+    starColor: ['#ee8d11', '#f48823', '#4b584d', '#252327'],
+    luminance: '1',
+    layers: [
+      { blur: '1', blend: 'source-over', type: 'glow' },
+      { blur: '10', blend: 'luminosity', type: 'glow' },
+      { blur: '10', blend: 'color-dodge', type: 'glow' },
+      { blur: '10', blend: 'color-dodge', type: 'glow' },
+      { blur: '12', blend: 'color-dodge', type: 'glow' },
+      { blur: '10', blend: 'color-dodge', type: 'core', size: '100', color: '#f46400' },
+    ],
+  },
+  occult: {
+    spaceColor: '#040904',
+    starColor: ['#000ceb', '#d181de', '#503c6b', '#110614'],
+    luminance: '0.65',
+    layers: [
+      { blur: '20', blend: 'source-over', type: 'glow' },
+      { blur: '2', blend: 'source-over', type: 'glow' },
+      { blur: '50', blend: 'soft-light', type: 'core', size: '1000', color: '#5a0060' },
+      { blur: '20', blend: 'luminosity', type: 'glow' },
+      { blur: '20', blend: 'color-dodge', type: 'glow' },
+      { blur: '50', blend: 'color-dodge', type: 'core', size: '500', color: '#d800da' },
+    ],
+  },
 };
