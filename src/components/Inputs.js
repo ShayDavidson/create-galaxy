@@ -106,7 +106,14 @@ export default function Inputs({
       {title('Effects')}
       {!advanced && (
         <>
-          {!supportsEffects() && <div className="error">Effects are partial in iOS/Safari 😞</div>}
+          {!supportsEffects() && (
+            <div className="error">
+              Effects are partial in iOS/Safari{' '}
+              <span role="img" aria-label="sad">
+                😞
+              </span>
+            </div>
+          )}
           <select className="standard-input" defaultValue="" onChange={e => onChange(EFFECT_PRESETS[e.target.value])}>
             <option value="" disabled>
               Effects Preset

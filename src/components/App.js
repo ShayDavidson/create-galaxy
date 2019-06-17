@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Canvas from './Canvas';
 import Inputs from './Inputs';
 import { saveAs } from 'file-saver';
@@ -20,6 +20,11 @@ export default function App() {
 
   const initialPreset = urlToPreset() || presets[localStorage.getItem('lastPreset')] || DEFAULT_PRESET;
   const [preset, setPresetValue] = React.useState(initialPreset.version === PRESET_VERSION ? initialPreset : DEFAULT_PRESET);
+
+  useEffect(() => {
+    const { spaceColor, starColor, luminance, layers } = preset;
+    window.effects = JSON.stringify({ spaceColor, starColor, luminance, layers }); // for easily extracting effects presets
+  }, [preset]);
 
   const onSave = () => {
     track('click', 'imageSaved');
